@@ -28,5 +28,5 @@ def split_file_to_chunks(file_path, chunk_size):
         for i, chunk in enumerate(split_file(file_path, chunk_size)):
             write_chunk(chunk, i)
             
-           
-split_file_to_chunks('J_bcu', 5 * 1024 * 1024)
+# Split into max 1GB chunks       
+split_file_to_chunks('largeFileName.zip', 1 * 1024 * 1024 * 1024)

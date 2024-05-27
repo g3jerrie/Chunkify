@@ -38,6 +38,6 @@ def merge_files(directory, pattern, merged_file):
                 
 directory = '.'
 pattern = 'chunk_'
-merged_file = 'J_bcu.7z'
+merged_file = 'largeFileName.zip'
 
 merge_files(directory, pattern, merged_file)
